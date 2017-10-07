@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav_bar">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">
+        <strong>Weather App</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse navbar-navigation" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Current Weather <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../">Travis Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Open Weather Map</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron jumbo">
+    <h2 class="text-center" style="font-size:50px; font-weight=600;">Get Current Weather</h2>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="text-center text-primary main-title">Please enter your city name</h3>
+        <div id="error"></div>
+      </div>
+      <div class="row form-group form-inline" id="cityDiv">
+        <input type="string" type="number" name="city" id="city" class="form-control" placeholder="Enter city name">
+        <button id="submitCity" class="btn btn-primary">Search</button>
+      </div>
+    </div>
+    <div id="error"></div>
+    <div></div>
+    <div id="showWeather"></div>
+  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>

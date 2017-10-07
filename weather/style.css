@@ -1,0 +1,71 @@
+#cityDiv{
+  width: auto;
+  margin: auto;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.jumbo{
+  margin-bottom: 0px;
+  background-color: #d7d7d7;
+  color: gray; 
+}
+
+.navbar-navigation{
+  align-self: right;
+}
+
+#showWeather{
+  margin-top: 20px;
+  width: 45%;
+  margin: auto;
+  color: black;
+  -moz-box-shadow:    inset 0 0 8px #bbbbbb;
+  -webkit-box-shadow: inset 0 0 8px #bbbbbb;
+  box-shadow:         inset 0 0 8px #bbbbbb;
+}
+
+.main-title{
+  margin: 50px;
+  color: #03a73f;
+}
+
+.weatherResults{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.temperature{
+  margin-right: 40px;
+  font-size: 24px;
+  font-style: bold;
+}
+
+.description{
+  float: right;
+  align: top;
+  height: 175px;
+  padding-right: 20px;
+}
+
+.description1{
+  height: 150px;
+  width: 150px;
+  align-items: top, center;
+}
+
+.description2{
+  text-align: center;
+}
+
+.weatherTitle{
+  font-size: 20px;
+}
+
+.tempRange{
+  font-size: 12px;
+}
+
+.weatherResultsContainer{
+  margin: 20px;
+}
